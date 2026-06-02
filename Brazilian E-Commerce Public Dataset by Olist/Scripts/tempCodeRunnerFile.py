@@ -1,0 +1,1 @@
+print(df.groupby('product_category_name_english')['revenue'].sum().sort_values(ascending=False))
